@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   #header {
+  background-image: url('01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding: 80px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+#p1 {
+    color: rgb(185, 88, 24);
+    text-align: center;
+  }
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title 
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}*/
+
+/* Increase the font size of the heading */
+#header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1><i>Life Changing Motivational</i></h1>
+  <p><left>.......</left></p>
+</div>
+
+<div class="navbar">
+  <a href=""https://www.google.com/search?rlz=1C1ONGR_enIN1005IN1005&sxsrf=ALiCzsY4UeFCZuBuqw9RoR23n1b9YORe7A:1670863911595&source=univ&tbm=isch&q=motivational+quotes&fir=KtqAczNySw7T1M%252C-lPTdLmKc3ji1M%252C_%253BueWERjxZQQRB_M%252CwW4pqz28SG6cFM%252C_%253B-J4iTY-4qhH-eM%252CXeXgAmv4Ed_GwM%252C_%253Bwqgmglt8A5q9zM%252Cp9Ho16ll7xMIcM%252C_%253BUgn9SePL7jKjuM%252Cz1Y7ZyHkEPjELM%252C_%253B6gERy54JFXBxsM%252CtdurOdhFdyywiM%252C_%253BAiM4jgsH6YDZKM%252Cp9Ho16ll7xMIcM%252C_%253B3aLL8htOAd4NwM%252CcnNkYqbSYffQNM%252C_%253Brgw-IW96Bfr7rM%252CwW4pqz28SG6cFM%252C_%253BW_JFHGD1BdV6zM%252CtdurOdhFdyywiM%252C_%253BEb8FNncGhkvkxM%252Ci_7FOeclAdKpMM%252C_%253BBdXQ54LRcsYkJM%252Cz1Y7ZyHkEPjELM%252C_%253BQE76TWpLxsIXiM%252CPYuo3jf0lbI2EM%252C_%253BSUNyB3oPubD5-M%252CXeXgAmv4Ed_GwM%252C_%253B5OrC77iFp9I4UM%252C9QK4FexegtcinM%252C_%253BdZZTPcZqbXGMsM%252CWZrCWd_Pkw_WAM%252C_%253BkWrunFbYFvo-1M%252CjTxJN8gV8Bv9BM%252C_&usg=AI4_-kSgJPFRMBkC41uZi3ImJr7IMTReog&sa=X&ved=2ahUKEwjarayPxfT7AhUwZWwGHfbBC8YQjJkEegQICRAC&biw=1034&bih=563&dpr=1"">Life motiv</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Quotes</h2>
+    <h5>motive</h5>
+    <img src="03.webp" width="310" height="190">
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <video id="v0"  width="310" height="190" autoplay controls>
+      <source src="10.mp4" type="video/mp4" width="310" height="190" />
+      </video><br>
+      <img src="photo1.jpg" width="310" height="190">
+      <img src="img.webp" width="310" height="190">
+  </div>
+  <div class="main">
+    <h2>Motivation</h2>
+    <h5>.........</h5>
+    <div class="fakeimg" style="height:200px;"> <h3 id="p1"> Motivation is derived from the word 'motive', which denotes a person's<br> 
+      needs,desires, wants, or urges.<br>
+       It is the process of motivating individuals to take action in order to achieve a goal.<br>
+        The psychological elements fueling people's behavior in the context of job goals might include a desire for 
+         money.</h3></div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>Motivation, inspiration & positive quotes</h2>
+    <h5>............</h5>
+    <img src="05.jpg" height="200px" width="900"></img>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
